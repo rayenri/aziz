@@ -57,7 +57,8 @@ export default function LandingPage() {
                 <img
                   alt="..."
                   className="img-fluid floating"
-                  src={require("assets/img/img_3115.jpg")}
+                  style={{height:"500px"}}
+                  src={require("assets/img/BA/azizmain.jpg")}
                 />
                 <Card className="card-stats bg-danger">
                   <CardBody>

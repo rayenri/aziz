@@ -155,94 +155,94 @@ export default function Headers() {
                   md="8"
                   xs="12"
                 >
-                  <h1 className="title">Build stunning websites and apps</h1>
-                  <p className="description">
+                  <h1 className="title">Real People Real Tranformations</h1>
+                  {/* <p className="description">
                     Meet Wingman, a robust suite of styled pages and components,
                     powered by Bootstrap 4. The ideal starting point for product
                     landing pages, stylish web-apps and complete company
                     websites.
-                  </p>
-                  <Button
+                  </p> */}
+                  {/* <Button
                     color="primary"
                     href="#pablo"
                     onClick={(e) => e.preventDefault()}
                     size="lg"
                   >
                     Purchase Now
-                  </Button>
+                  </Button> */}
                 </Col>
                 <Col md="12">
                   <Slick {...slickHeader3Settings}>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/1AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/2AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/3AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/4AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/5AZIZ.jpg")}
-                        width="450"
+                      
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/6AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/7AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/8AZIZ.jpg")}
-                        width="450"
+                      
                       />
                     </div>
                     <div>
                       <img
                         alt="..."
-                        height="500"
+                        style={{aspectRatio:"16/9"}}
                         src={require("assets/img/BA/9AZIZ.jpg")}
-                        width="450"
+                       
                       />
                     </div>
                   </Slick>
