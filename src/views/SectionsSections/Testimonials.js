@@ -98,6 +98,7 @@ export default function Testimonials() {
              </Col>
               <Col className="ml-auto mr-auto text-center" md="5">
                 <h2 className="title">What Client Say ? </h2>
+                <h4 className="text-white ">"عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو"</h4>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -119,6 +120,8 @@ export default function Testimonials() {
               </Col>
               <Col className="ml-auto mr-auto text-center" md="5">
                 <h2 className="title">What Client Say ? </h2>
+                <h4 className="text-white ">"أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة"</h4>
+
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -133,10 +136,15 @@ export default function Testimonials() {
               </div>
               <div className="w-100 d-flex justify-content-between mt-3" style={{height:"270px",padding:"20px", border: "2px solid rgba(27,127,204,.8)"}}>
               <Col className="ml-auto mr-auto text-center" md="1">
+              <div className="d-flex justify-content-center align-items-center">
                 <h2 className="title">Refk  </h2>
+                <img src={require("assets/img/BA/france.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
+            </div>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="5">
                 <h2 className="title">What Client Say ?</h2>
+                <h4 className="text-white ">"خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز "</h4>
+
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -158,6 +166,8 @@ export default function Testimonials() {
               </Col>
               <Col className="ml-auto mr-auto text-center" md="5">
                 <h2 className="title">What Client Say ?</h2>
+                <h4 className="text-white ">"التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app"</h4>
+
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe

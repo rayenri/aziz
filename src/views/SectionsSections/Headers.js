@@ -144,34 +144,80 @@ export default function Headers() {
     <>
       <div className="cd-section" id="headers">
  
-        <div className="header header-3">
+        <div className="header header-3 text-center">
         
-          <div className="page-header header-filter">
-            <div className="content-center">
-              <Row>
-                <Col
-                  className="ml-auto mr-auto positioned"
-                  lg="5"
-                  md="8"
-                  xs="12"
-                >
+         
                   <h1 className="title">Real People Real Tranformations</h1>
-                  {/* <p className="description">
-                    Meet Wingman, a robust suite of styled pages and components,
-                    powered by Bootstrap 4. The ideal starting point for product
-                    landing pages, stylish web-apps and complete company
-                    websites.
-                  </p> */}
-                  {/* <Button
-                    color="primary"
-                    href="#pablo"
-                    onClick={(e) => e.preventDefault()}
-                    size="lg"
-                  >
-                    Purchase Now
-                  </Button> */}
-                </Col>
-                <Col md="12">
+                <div className="d-flex w-100">
+                <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/1AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/2AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/3AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/4AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                </div>
+
+                <div className="d-flex w-100">
+                <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/6AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/7AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/8AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                    <div className="w-50 p-5" >
+                      <img
+                        alt="..."
+                        style={{aspectRatio:"16/9"}}
+                        src={require("assets/img/BA/9AZIZ.jpg")}
+                       
+                      />
+                    </div>
+                </div>
+                {/* <Col md="12">
                   <Slick {...slickHeader3Settings}>
                     <div>
                       <img
@@ -246,12 +292,9 @@ export default function Headers() {
                       />
                     </div>
                   </Slick>
-                </Col>
-              </Row>
-            </div>
-          </div>
-        </div>
-     
+                </Col> */}
+             
+     </div>
       </div>{" "}
     </>
   );

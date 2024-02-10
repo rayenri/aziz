@@ -64,8 +64,10 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">100%</CardTitle>
-                        <p className="card-category text-white">Safe</p>
+                      
+                        <p className="card-category text-white">
+                        Workouts
+                        </p>
                       </div>
                     </div>
                   </CardBody>
@@ -74,9 +76,9 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">573 K</CardTitle>
+                      
                         <p className="card-category text-white">
-                          Satisfied customers
+                        Mindset 
                         </p>
                       </div>
                     </div>
@@ -86,8 +88,8 @@ export default function LandingPage() {
                   <CardBody>
                     <div className="justify-content-center">
                       <div className="numbers">
-                        <CardTitle tag="p">10 425</CardTitle>
-                        <p className="card-category text-white">Business</p>
+                       
+                        <p className="card-category text-white">Nutrition</p>
                       </div>
                     </div>
                   </CardBody>
@@ -98,11 +100,10 @@ export default function LandingPage() {
                   <hr className="line-success" />
                   <h3>Awesome features</h3>
                   <p>
-                    The design system comes with three pre-built pages to help
-                    you get started faster. You can change the text and images
-                    and you're good to go.
+                  Everything you need from training, to diet, 
+                  to mindset to get rid of pain and achieve the body of your dreams
                   </p>
-                  <ul className="list-unstyled mt-5">
+                  {/* <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">
                         <div className="icon icon-success mb-2">
@@ -133,7 +134,7 @@ export default function LandingPage() {
                         </div>
                       </div>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </Col>
             </Row>
