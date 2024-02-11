@@ -54,13 +54,21 @@ export default function Presentation() {
       <div className="d-flex justify-content-center w-100 " style={{height:"300px"}}>
       
 <div >
-      <iframe
-        src="https://player.vimeo.com/video/911867955?badge=0&autopause=0&player_id=0&app_id=58479"
+      {/* <iframe
+        src="https://www.youtube.com/watch?v=jN2y-7ne9CA"
         frameBorder="0"
         allow="fullscreen"
         style={{width:"550px",borderRadius:"5px",height:"100%"}}
         title="VSL"
-      />
+      /> */}
+      <iframe
+                   style={{width:"550px",borderRadius:"5px",height:"100%"}}
+    // style="width:100%; height:100%; border-radius:5px;"
+    src="https://www.youtube.com/embed/jN2y-7ne9CA"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen>
+</iframe>
     </div>
 {/* <ReactPlayer style={{width:"60%",borderRadius:"5px",height:"100%"}} url='https://vimeo.com/911867955?share=copy' /> */}
         </div>

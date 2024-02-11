@@ -97,8 +97,9 @@ export default function Testimonials() {
             </div>
              </Col>
               <Col className="ml-auto mr-auto text-center mt-4" md="5">
-             
-                <h2 className="text-white ">"عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو"</h2>
+              <div className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
+                <h1 className="text-white  font-weight-bold">عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو</h1>
+              </div>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -119,9 +120,9 @@ export default function Testimonials() {
             </div>
               </Col>
               <Col className="ml-auto mr-auto text-center mt-4" md="5">
-            
-                <h2 className="text-white ">"أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة"</h2>
-
+              <div className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
+                <h1 className="text-white font-weight-bold">أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة</h1>
+</div>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -142,9 +143,9 @@ export default function Testimonials() {
             </div>
               </Col>
               <Col className="ml-auto mr-auto text-center mt-4" md="5">
-               
-                <h2 className="text-white ">"خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز "</h2>
-
+              <div className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
+                <h1 className="text-white font-weight-bold ">خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز </h1>
+                </div>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -165,9 +166,9 @@ export default function Testimonials() {
              </div>
               </Col>
               <Col className="ml-auto mr-auto text-center mt-4" md="5">
-               
-                <h2 className="text-white ">"التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app"</h2>
-
+              <div className="d-flex justify-content-center align-items-center" style={{ height: '100%' }}>
+                <h1 className="text-white font-weight-bold">التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app</h1>
+                </div>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe

@@ -147,9 +147,9 @@ export default function Headers() {
         <div className="header header-3 text-center">
         
          
-                  <h1 className="title">Real People Real Tranformations</h1>
+                  <h1 className="title">Transform your body .. Change your life</h1>
                 <div className="d-flex w-100">
-                <div className="w-50 p-2" >
+                <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -157,7 +157,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -165,7 +165,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -173,7 +173,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -184,7 +184,7 @@ export default function Headers() {
                 </div>
 
                 <div className="d-flex w-100">
-                <div className="w-50 p-2" >
+                <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -192,7 +192,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -200,7 +200,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
@@ -208,7 +208,7 @@ export default function Headers() {
                        
                       />
                     </div>
-                    <div className="w-50 p-2" >
+                    <div className="w-50 p-3" >
                       <img
                         alt="..."
                         style={{aspectRatio:"1/1"}}
