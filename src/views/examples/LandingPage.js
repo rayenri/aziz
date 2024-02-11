@@ -99,10 +99,10 @@ export default function LandingPage() {
                 <div className="px-md-5">
                   <hr className="line-success" />
                   <h3>Awesome features</h3>
-                  <p>
+                  <h2>
                   Everything you need from training, to diet, 
                   to mindset to get rid of pain and achieve the body of your dreams
-                  </p>
+                  </h2>
                   {/* <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">

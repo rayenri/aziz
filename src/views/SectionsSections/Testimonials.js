@@ -96,9 +96,9 @@ export default function Testimonials() {
                 <img src={require("assets/img/BA/deutsh.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
             </div>
              </Col>
-              <Col className="ml-auto mr-auto text-center" md="5">
-                <h2 className="title">What Client Say ? </h2>
-                <h4 className="text-white ">"عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو"</h4>
+              <Col className="ml-auto mr-auto text-center mt-4" md="5">
+             
+                <h2 className="text-white ">"عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو"</h2>
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
               <iframe
@@ -118,9 +118,9 @@ export default function Testimonials() {
                 <img src={require("assets/img/BA/france.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
             </div>
               </Col>
-              <Col className="ml-auto mr-auto text-center" md="5">
-                <h2 className="title">What Client Say ? </h2>
-                <h4 className="text-white ">"أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة"</h4>
+              <Col className="ml-auto mr-auto text-center mt-4" md="5">
+            
+                <h2 className="text-white ">"أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة"</h2>
 
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
@@ -141,9 +141,9 @@ export default function Testimonials() {
                 <img src={require("assets/img/BA/france.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
             </div>
               </Col>
-              <Col className="ml-auto mr-auto text-center" md="5">
-                <h2 className="title">What Client Say ?</h2>
-                <h4 className="text-white ">"خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز "</h4>
+              <Col className="ml-auto mr-auto text-center mt-4" md="5">
+               
+                <h2 className="text-white ">"خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز "</h2>
 
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">
@@ -164,9 +164,9 @@ export default function Testimonials() {
                 <img src={require("assets/img/BA/usa.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
              </div>
               </Col>
-              <Col className="ml-auto mr-auto text-center" md="5">
-                <h2 className="title">What Client Say ?</h2>
-                <h4 className="text-white ">"التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app"</h4>
+              <Col className="ml-auto mr-auto text-center mt-4" md="5">
+               
+                <h2 className="text-white ">"التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app"</h2>
 
               </Col>
               <Col className="ml-auto mr-auto text-center" md="6">

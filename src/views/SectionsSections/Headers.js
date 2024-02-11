@@ -149,34 +149,34 @@ export default function Headers() {
          
                   <h1 className="title">Real People Real Tranformations</h1>
                 <div className="d-flex w-100">
-                <div className="w-50 p-5" >
+                <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/1AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/2AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/3AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/4AZIZ.jpg")}
                        
                       />
@@ -184,34 +184,34 @@ export default function Headers() {
                 </div>
 
                 <div className="d-flex w-100">
-                <div className="w-50 p-5" >
+                <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/6AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/7AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/8AZIZ.jpg")}
                        
                       />
                     </div>
-                    <div className="w-50 p-5" >
+                    <div className="w-50 p-2" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/9AZIZ.jpg")}
                        
                       />
@@ -222,7 +222,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/1AZIZ.jpg")}
                        
                       />
@@ -230,7 +230,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/2AZIZ.jpg")}
                        
                       />
@@ -238,7 +238,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/3AZIZ.jpg")}
                        
                       />
@@ -246,7 +246,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/4AZIZ.jpg")}
                        
                       />
@@ -254,7 +254,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/5AZIZ.jpg")}
                       
                       />
@@ -262,7 +262,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/6AZIZ.jpg")}
                        
                       />
@@ -270,7 +270,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/7AZIZ.jpg")}
                        
                       />
@@ -278,7 +278,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/8AZIZ.jpg")}
                       
                       />
@@ -286,7 +286,7 @@ export default function Headers() {
                     <div>
                       <img
                         alt="..."
-                        style={{aspectRatio:"16/9"}}
+                        style={{aspectRatio:"1/1"}}
                         src={require("assets/img/BA/9AZIZ.jpg")}
                        
                       />
