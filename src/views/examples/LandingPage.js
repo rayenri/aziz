@@ -65,7 +65,7 @@ export default function LandingPage() {
                     <div className="justify-content-center">
                       <div className="numbers">
                       
-                        <p className="card-category text-white">
+                        <p className="card-category text-white font-weight-bolder">
                         Workouts
                         </p>
                       </div>
@@ -77,7 +77,7 @@ export default function LandingPage() {
                     <div className="justify-content-center">
                       <div className="numbers">
                       
-                        <p className="card-category text-white">
+                        <p className="card-category text-white font-weight-bolder">
                         Mindset 
                         </p>
                       </div>
@@ -89,7 +89,7 @@ export default function LandingPage() {
                     <div className="justify-content-center">
                       <div className="numbers">
                        
-                        <p className="card-category text-white">Nutrition</p>
+                        <p className="card-category text-white font-weight-bolder">Nutrition</p>
                       </div>
                     </div>
                   </CardBody>
