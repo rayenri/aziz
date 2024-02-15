@@ -97,12 +97,25 @@ export default function LandingPage() {
               </Col>
               <Col md="6">
                 <div className="px-md-5">
-                  <hr className="line-success" />
-                  <h3>Awesome features</h3>
-                  <h2>
-                  Everything you need from training, to diet, 
-                  to mindset to get rid of pain and achieve the body of your dreams
-                  </h2>
+                
+                  <h3 className="font-weight-bolder mt-3">WHO IS THIS FOR?</h3>
+                  <h4>
+                  *	If you want to lose body fat, 
+                  you tried various methods in the past, you managed to lose some weight, 
+                  but you gained it all back, and now you’re looking for a system that you enjoy and can stick 
+                  to lose those extra pounds once and for all
+                  </h4>
+                  <h4>
+                  *	If you’ve been training for a good period but you can’t see the progress that you wish for. 
+                  You find yourself doing what other 95% for gym goers do, 
+                  and results are way less than you expected... 
+                  </h4>
+                  <h4>
+                  *	You managed to lose some weight but you’re now skinny fat? No problem, you’ll be gaining strength and size week by week and losing that body fat at the same time! Happy days. 
+                  </h4>
+                  <h4>
+                  *	Injuries, pains and discomforts are what’s keeping you away from your gaols, and the body that you always dreamed about? Together we will get rid of those and simultaneously start building muscle and working towards your dream physique. 
+                  </h4>
                   {/* <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">
