@@ -14,7 +14,7 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React from "react";
+import React , { useState, useEffect }from "react";
 
 // reactstrap components
 // import {
@@ -44,6 +44,22 @@ export default function Presentation() {
       document.body.classList.remove("presentation-page");
     };
   }, []);
+  const [isMobile, setIsMobile] = useState(window.innerWidth );
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth );
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    // Cleanup
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+
+  useEffect(()=>{
+  console.log('isMMobile',isMobile)
+  },[isMobile])
   return (
     <>
       <ColorNavbar />
@@ -61,7 +77,7 @@ export default function Presentation() {
         style={{width:"550px",borderRadius:"5px",height:"100%"}}
         title="VSL"
       /> */}
-      <iframe
+  { isMobile>570 ?    <iframe
                    style={{width:"550px",borderRadius:"5px",height:"100%"}}
     // style="width:100%; height:100%; border-radius:5px;"
     src="https://www.youtube.com/embed/jN2y-7ne9CA"
@@ -69,6 +85,16 @@ export default function Presentation() {
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
 </iframe>
+:
+<iframe
+style={{width:"380px",borderRadius:"5px",height:"100%"}}
+// style="width:100%; height:100%; border-radius:5px;"
+src="https://www.youtube.com/embed/jN2y-7ne9CA"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowfullscreen>
+</iframe>
+}
     </div>
 {/* <ReactPlayer style={{width:"60%",borderRadius:"5px",height:"100%"}} url='https://vimeo.com/911867955?share=copy' /> */}
         </div>

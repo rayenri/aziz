@@ -53,11 +53,11 @@ export default function LandingPage() {
           />
           <Container>
             <Row className="row-grid justify-content-between">
-              <Col md="5">
+              <Col md="5" className="mt-5">
                 <img
                   alt="..."
                   className="img-fluid floating"
-                  style={{height:"500px"}}
+                  style={{height:"700px"}}
                   src={require("assets/img/BA/azizmain.jpg")}
                 />
                 <Card className="card-stats bg-danger">
@@ -98,24 +98,33 @@ export default function LandingPage() {
               <Col md="6">
                 <div className="px-md-5">
                 
-                  <h3 className="font-weight-bolder mt-3">WHO IS THIS FOR?</h3>
+                  <h3 className="font-weight-bolder mt-3 text-center">WHO IS THIS FOR?</h3>
+                  <div className="card shadow"> {/* Adding shadow class */}
+        <div className="card-body">
                   <h4>
                   *	If you want to lose body fat, 
                   you tried various methods in the past, you managed to lose some weight, 
                   but you gained it all back, and now you’re looking for a system that you enjoy and can stick 
                   to lose those extra pounds once and for all
                   </h4>
+                  </div> </div>
+                  <div className="card shadow"> {/* Adding shadow class */}
+        <div className="card-body">   
                   <h4>
                   *	If you’ve been training for a good period but you can’t see the progress that you wish for. 
                   You find yourself doing what other 95% for gym goers do, 
                   and results are way less than you expected... 
-                  </h4>
+                  </h4>  </div> </div>
+                  <div className="card shadow"> {/* Adding shadow class */}
+        <div className="card-body">
                   <h4>
                   *	You managed to lose some weight but you’re now skinny fat? No problem, you’ll be gaining strength and size week by week and losing that body fat at the same time! Happy days. 
-                  </h4>
+                  </h4>  </div> </div>
+                  <div className="card shadow"> {/* Adding shadow class */}
+        <div className="card-body">
                   <h4>
                   *	Injuries, pains and discomforts are what’s keeping you away from your gaols, and the body that you always dreamed about? Together we will get rid of those and simultaneously start building muscle and working towards your dream physique. 
-                  </h4>
+                  </h4>  </div> </div>
                   {/* <ul className="list-unstyled mt-5">
                     <li className="py-2">
                       <div className="d-flex align-items-center">
