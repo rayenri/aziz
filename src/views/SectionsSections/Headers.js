@@ -143,8 +143,8 @@ export default function Headers() {
   return (
     <>
       <div className="cd-section" id="headers">
- 
-        <div className="header header-3 text-center">
+{/*  
+        <div className="header  text-center">
         
          
                   <h1 className="title">Transform your body .. Change your life</h1>
@@ -152,7 +152,7 @@ export default function Headers() {
                 <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/1AZIZ.jpg")}
                        
                       />
@@ -160,7 +160,7 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/2AZIZ.jpg")}
                        
                       />
@@ -168,7 +168,7 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/3AZIZ.jpg")}
                        
                       />
@@ -176,7 +176,7 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/4AZIZ.jpg")}
                        
                       />
@@ -187,7 +187,7 @@ export default function Headers() {
                 <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/6AZIZ.jpg")}
                        
                       />
@@ -195,7 +195,7 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/7AZIZ.jpg")}
                        
                       />
@@ -203,7 +203,7 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/8AZIZ.jpg")}
                        
                       />
@@ -211,90 +211,50 @@ export default function Headers() {
                     <div className="w-50 p-3" >
                       <img
                         alt="..."
-                        style={{aspectRatio:"1/1"}}
+                        style={{width: '100%', aspectRatio: '1 / 1'}}
                         src={require("assets/img/BA/9AZIZ.jpg")}
                        
                       />
                     </div>
                 </div>
-                {/* <Col md="12">
-                  <Slick {...slickHeader3Settings}>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/1AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/2AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/3AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/4AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/5AZIZ.jpg")}
-                      
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/6AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/7AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/8AZIZ.jpg")}
-                      
-                      />
-                    </div>
-                    <div>
-                      <img
-                        alt="..."
-                        style={{aspectRatio:"1/1"}}
-                        src={require("assets/img/BA/9AZIZ.jpg")}
-                       
-                      />
-                    </div>
-                  </Slick>
-                </Col> */}
+              
              
-     </div>
+     </div> */}
+ 
+<div className="container">
+
+<div className="  text-center">
+<h1 className="title">Transform your body .. Change your life</h1>
+</div>
+      <div className="row">
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/1AZIZ.jpg")}  alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/2AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/3AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/4AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+      </div>
+      <div className="row">
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/6AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/7AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/8AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}}  alt="..." className="img-fluid" />
+        </div>
+        <div className="col-md-3 col-sm-6 p-3">
+          <img src={require("assets/img/BA/9AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
+        </div>
+      </div>
+    </div>
       </div>{" "}
     </>
   );
