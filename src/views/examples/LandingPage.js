@@ -17,6 +17,7 @@
 import React from "react";
 // react plugin used to create charts
 import { Line } from "react-chartjs-2";
+import { FaCircleCheck } from "react-icons/fa6";
 
 // reactstrap components
 import {
@@ -56,8 +57,8 @@ export default function LandingPage() {
               <Col md="5" className="mt-5">
                 <img
                   alt="..."
-                  className="img-fluid floating"
-                  style={{height:"700px"}}
+                  className="img-fluids floating"
+                //  style={{height:"700px"}}
                   src={require("assets/img/BA/azizmain.jpg")}
                 />
                 <Card className="card-stats bg-danger">
@@ -101,62 +102,34 @@ export default function LandingPage() {
                   <h3 className="font-weight-bolder mt-3 text-center">WHO IS THIS FOR?</h3>
                   <div className="card shadow"> {/* Adding shadow class */}
         <div className="card-body">
+       
                   <h4>
-                  *	If you want to lose body fat, 
+                  <i class="fas fa-check"></i>    	If you want to lose body fat, 
                   you tried various methods in the past, you managed to lose some weight, 
                   but you gained it all back, and now you’re looking for a system that you enjoy and can stick 
                   to lose those extra pounds once and for all
                   </h4>
                   </div> </div>
                   <div className="card shadow"> {/* Adding shadow class */}
-        <div className="card-body">   
+        <div className="card-body d-flex justify-content-center align-items-center">   
+        <i class="fas fa-check mr-2" style={{color:"white"}}></i>
                   <h4>
-                  *	If you’ve been training for a good period but you can’t see the progress that you wish for. 
+                  	If you’ve been training for a good period but you can’t see the progress that you wish for. 
                   You find yourself doing what other 95% for gym goers do, 
                   and results are way less than you expected... 
                   </h4>  </div> </div>
                   <div className="card shadow"> {/* Adding shadow class */}
-        <div className="card-body">
+        <div className="card-body d-flex justify-content-center align-items-center">
+    <FaCircleCheck style={{color:"white"}} size={"70px"} className="mr-2"/>
                   <h4>
-                  *	You managed to lose some weight but you’re now skinny fat? No problem, you’ll be gaining strength and size week by week and losing that body fat at the same time! Happy days. 
+                  	You managed to lose some weight but you’re now skinny fat? No problem, you’ll be gaining strength and size week by week and losing that body fat at the same time! Happy days. 
                   </h4>  </div> </div>
                   <div className="card shadow"> {/* Adding shadow class */}
         <div className="card-body">
                   <h4>
-                  *	Injuries, pains and discomforts are what’s keeping you away from your gaols, and the body that you always dreamed about? Together we will get rid of those and simultaneously start building muscle and working towards your dream physique. 
+                  Injuries, pains and discomforts are what’s keeping you away from your gaols, and the body that you always dreamed about? Together we will get rid of those and simultaneously start building muscle and working towards your dream physique. 
                   </h4>  </div> </div>
-                  {/* <ul className="list-unstyled mt-5">
-                    <li className="py-2">
-                      <div className="d-flex align-items-center">
-                        <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-vector" />
-                        </div>
-                        <div className="ml-3">
-                          <h6>Carefully crafted components</h6>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="d-flex align-items-center">
-                        <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-tap-02" />
-                        </div>
-                        <div className="ml-3">
-                          <h6>Amazing page examples</h6>
-                        </div>
-                      </div>
-                    </li>
-                    <li className="py-2">
-                      <div className="d-flex align-items-center">
-                        <div className="icon icon-success mb-2">
-                          <i className="tim-icons icon-single-02" />
-                        </div>
-                        <div className="ml-3">
-                          <h6>Super friendly support team</h6>
-                        </div>
-                      </div>
-                    </li>
-                  </ul> */}
+                
                 </div>
               </Col>
             </Row>
