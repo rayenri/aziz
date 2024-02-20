@@ -101,10 +101,10 @@ export default function LandingPage() {
                 
                   <h3 className="font-weight-bolder mt-3 text-center">WHO IS THIS FOR?</h3>
                   <div className="card shadow"> {/* Adding shadow class */}
-        <div className="card-body">
-       
+        <div className="card-body d-flex justify-content-center align-items-center">
+        <i class="fas fa-check mr-2" style={{color:"white"}}></i>
                   <h4>
-                  <i class="fas fa-check"></i>    	If you want to lose body fat, 
+                     	If you want to lose body fat, 
                   you tried various methods in the past, you managed to lose some weight, 
                   but you gained it all back, and now you’re looking for a system that you enjoy and can stick 
                   to lose those extra pounds once and for all
@@ -120,12 +120,13 @@ export default function LandingPage() {
                   </h4>  </div> </div>
                   <div className="card shadow"> {/* Adding shadow class */}
         <div className="card-body d-flex justify-content-center align-items-center">
-    <FaCircleCheck style={{color:"white"}} size={"70px"} className="mr-2"/>
+        <i class="fas fa-check mr-2" style={{color:"white"}}></i>
                   <h4>
                   	You managed to lose some weight but you’re now skinny fat? No problem, you’ll be gaining strength and size week by week and losing that body fat at the same time! Happy days. 
                   </h4>  </div> </div>
                   <div className="card shadow"> {/* Adding shadow class */}
-        <div className="card-body">
+        <div className="card-body d-flex justify-content-center align-items-center">
+        <i class="fas fa-check mr-2" style={{color:"white"}}></i>
                   <h4>
                   Injuries, pains and discomforts are what’s keeping you away from your gaols, and the body that you always dreamed about? Together we will get rid of those and simultaneously start building muscle and working towards your dream physique. 
                   </h4>  </div> </div>
