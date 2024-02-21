@@ -12,7 +12,11 @@ export default function ContactUs() {
   return (
     <>
       <InlineWidget url="https://calendly.com/azizsaighi0/onboarding" />
-     
+      {/* <div><div 
+            className="calendly-inline-widget"
+            data-url="https://calendly.com/azizsaighi0/onboarding"
+            style={{ minWidth: '320px', height: '580px' }} />
+        </div> */}
     </>
   );
 }

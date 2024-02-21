@@ -49,21 +49,41 @@ export default function Accordion() {
             <Row>
               <Col className="ml-auto" md="12">
                 <div className="accordion">
+                <Card>
+                    <CardHeader>
+                      <h5 className="mb-0">
+                        <Button
+                          className="w-100 text-left "
+                          color="link"
+                          aria-expanded={collapse === 1}
+                          onClick={() => openCollapse(1)}
+                        >
+                          How much does it cost?{" "}
+                          <i className="tim-icons icon-minimal-down float-right" />
+                        </Button>
+                      </h5>
+                    </CardHeader>
+                    <Collapse isOpen={collapse === 1}>
+                      <CardBody>
+                      Online training costs <span style={{fontWeight:"900"}}>€ 79 </span> per month. It's a monthly recurring subscription service which you may cancel at ANY time, and still get your full month of service.
+                      </CardBody>
+                    </Collapse>
+                  </Card>
                   <Card>
                     <CardHeader>
                       <h5 className="mb-0">
                         <Button
                           className="w-100 text-left"
                           color="link"
-                          aria-expanded={collapse === 1}
-                          onClick={() => openCollapse(1)}
+                          aria-expanded={collapse === 2}
+                          onClick={() => openCollapse(2)}
                         >
                           How does online training works? {" "}
                           <i className="tim-icons icon-minimal-down float-right" />
                         </Button>
                       </h5>
                     </CardHeader>
-                    <Collapse isOpen={collapse === 1}>
+                    <Collapse isOpen={collapse === 2}>
                       <CardBody>
                       First, we’ll have a Zoom call where we get to know each other, the goal is to know things about you, like your specific goals, your current level, your experience with the gym, your past injuries etc... with that your coach can write for you your tailored program.
 Then, you’ll be given access to an app called TrueCoach, where you’ll find your personalized program. 
@@ -73,26 +93,7 @@ You have regular back and forth communication with your coach and he will answer
                       </CardBody>
                     </Collapse>
                   </Card>
-                  <Card>
-                    <CardHeader>
-                      <h5 className="mb-0">
-                        <Button
-                          className="w-100 text-left "
-                          color="link"
-                          aria-expanded={collapse === 2}
-                          onClick={() => openCollapse(2)}
-                        >
-                          How much does it cost?{" "}
-                          <i className="tim-icons icon-minimal-down float-right" />
-                        </Button>
-                      </h5>
-                    </CardHeader>
-                    <Collapse isOpen={collapse === 2}>
-                      <CardBody>
-                      Online training costs € 79 per month.  It's a monthly recurring subscription service which you may cancel at ANY time, and still get your full month of service.
-                      </CardBody>
-                    </Collapse>
-                  </Card>
+                 
                   <Card>
                     <CardHeader>
                       <h5 className="mb-0">
