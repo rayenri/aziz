@@ -108,17 +108,21 @@ allowfullscreen>
       
 
         <div className="d-flex justify-content-center align-items-center w-100">
-        <Button
+        <button
                     block
-                    className="btn-round w-50 "
-                    
-                    color="primary"
-                    href="#pablo"
+                    className="btn-round w-50 background-color-btn mt-3"
+                   style={{
+                    backgroundColor:"#1d8cf8 ",
+                    border:"2px transparent",
+                    color:"white",
+                    height:"35px"
+                   }}
+              
                     onClick={()=>setIsOpen(true)}
                     
                   >
                    BOOK A CALL
-                  </Button>
+                  </button>
         </div>
                  
                

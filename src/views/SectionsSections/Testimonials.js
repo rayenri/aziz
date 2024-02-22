@@ -122,7 +122,7 @@ export default function Testimonials() {
         </div>
         <div className="col-12 col-md-5 text-center mb-2 mb-md-0">
             <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px' }}> {/* Adjust minHeight as needed */}
-                <h1 className="text-white font-weight-bold">عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو</h1>
+                <h1 className="text-white font-weight-bold" style={{marginTop:"10%"}}>عزيز عاوني نبني بدني من أول و جديد بعد ماكنت نوزن 49 كيلو</h1>
             </div>
         </div>
         <div className="col-12 col-md-6">
@@ -146,8 +146,8 @@ export default function Testimonials() {
             </div>
         </div>
         <div className="col-12 col-md-5 text-center mb-2 mb-md-0">
-            <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px' }}> {/* Adjust minHeight as needed */}
-            <h1 className="text-white font-weight-bold">أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة</h1>
+            <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px'}}> {/* Adjust minHeight as needed */}
+            <h1 className="text-white font-weight-bold" style={{marginTop:"10%"}}>أحسن حاجة عجبتني فالخدمة مع عزيز، هي أن النتيجة موجودة</h1>
             </div>
         </div>
         <div className="col-12 col-md-6">
@@ -174,7 +174,7 @@ export default function Testimonials() {
         </div>
         <div className="col-12 col-md-5 text-center mb-2 mb-md-0">
             <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px' }}> {/* Adjust minHeight as needed */}
-            <h1 className="text-white font-weight-bold ">خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز </h1>
+            <h1 className="text-white font-weight-bold "style={{marginTop:"10%"}}>خدمت قبل مع مدرب اخر لكن التجربة ماكانتش موفقة .. و فرحانة برشة إلي توا نخدم مع عزيز </h1>
             </div>
         </div>
         <div className="col-12 col-md-6">
@@ -201,7 +201,7 @@ export default function Testimonials() {
         </div>
         <div className="col-12 col-md-5 text-center mb-2 mb-md-0">
             <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px' }}> {/* Adjust minHeight as needed */}
-            <h1 className="text-white font-weight-bold">التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app</h1>            </div>
+            <h1 className="text-white font-weight-bold" style={{marginTop:"10%"}}>التمارين إلي خدمتهم مع عزيز مهمش كيما كل التمارين إلي تنجم تلقاهم في أي app</h1>            </div>
         </div>
         <div className="col-12 col-md-6">
             <div className="embed-responsive embed-responsive-16by9">

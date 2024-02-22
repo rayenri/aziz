@@ -75,9 +75,7 @@ export default function ColorNavbar() {
             <div className="navbar-collapse-header">
               <Row>
                 <Col className="collapse-brand" xs="6">
-                  <a href="#pablo" onClick={(e) => e.preventDefault()}>
-                    BLK• <span>PRO React</span>
-                  </a>
+                <span> SAIGHI AZIZ  </span>
                 </Col>
                 <Col className="collapse-close text-right" xs="6">
                   <button className="navbar-toggler" id="navigation">
@@ -97,7 +95,7 @@ export default function ColorNavbar() {
                 <Button
                   className="nav-link"
                   color="default"
-                  href="https://www.creative-tim.com/product/blk-design-system-pro-react?reaf=blkdspr-pages-navbar"
+                  href="https://calendly.com/azizsaighi0/onboarding"
                   size="sm"
                   target="_blank"
                 >

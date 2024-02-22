@@ -51,8 +51,11 @@
 
 
   &.navbar-transparent{
-    background: $transparent-bg !important;
+    background: #1d8cf8 !important;
     padding-top: 25px;
+  }
+  .background-color-btn{
+    background-color: #1d8cf8 !important;
   }
 
   &.bg-white{
