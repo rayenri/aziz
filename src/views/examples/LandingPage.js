@@ -44,7 +44,7 @@ export default function LandingPage() {
 
   return (
     <>
-      <ColorNavbar />
+    
      
       <section className="section section-lg section-safe">
           <img

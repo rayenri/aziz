@@ -51,27 +51,7 @@ export default function Index() {
   }, []);
   return (
     <>
-      <ColorNavbar />
-      <div className="wrapper" ref={wrapper}>
-        <IndexHeader />
-        <div className="main">
-          <Basic />
-          <Navbars />
-          <Tabs />
-          <Pills />
-          <Pagination />
-          <Notifications />
-          <PreFooter />
-          <Footers />
-          <Typography />
-          <ContentAreas />
-          <Cards />
-          <PlainCards />
-          <JavaScript />
-          <NucleoIcons />
-        </div>
-        <DemoFooter />
-      </div>
+      
     </>
   );
 }

@@ -31,19 +31,14 @@ import Presentation from "views/Presentation.js";
 
 import ContactUs from "views/examples/ContactUs.js";
 import LandingPage from "views/examples/LandingPage.js";
-
+import Headers from "./views/SectionsSections/Headers.js";
+import Testimonials from "./views/SectionsSections/Testimonials.js";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/index" element={<Index />} />
-      <Route path="/presentation" element={<Presentation />} />
- 
-      <Route path="/contact-us" element={<ContactUs />} />
-      <Route path="/landing-page" element={<LandingPage />} />
-
-      <Route path="/" element={<Navigate to="/presentation" replace />} />
+    <Route path="/" element={<Presentation />} />
       
     </Routes>
   </BrowserRouter>

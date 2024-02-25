@@ -15,7 +15,7 @@
 
 */
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 // reactstrap components
 import {
   Button,
@@ -34,8 +34,9 @@ import {
   UncontrolledTooltip,
 } from "reactstrap";
 
-export default function ColorNavbar() {
+export default function ColorNavbar({onResultsClick,onTestimonialsClick}) {
   const [navbarColor, setNavbarColor] = React.useState("navbar-transparent");
+  const navigate=useNavigate()
   React.useEffect(() => {
     window.addEventListener("scroll", changeNavbarColor);
     return function cleanup() {
@@ -55,6 +56,14 @@ export default function ColorNavbar() {
       setNavbarColor("navbar-transparent");
     }
   };
+  console.log("aaa",{ onResultsClick, onTestimonialsClick });
+ const navigateTestimonials=()=>{
+  if(onTestimonialsClick) { // Check if the function is provided
+    onTestimonialsClick();
+  } else {
+    console.error('onTestimonialsClick is not a function');
+  }
+ }
   return (
     <>
       <Navbar className={"d-block fixed-top " + navbarColor} expand="lg" >
@@ -85,11 +94,11 @@ export default function ColorNavbar() {
               </Row>
             </div>
             <Nav className="ml-auto" navbar>
-            <NavItem  className="nav-link mt-2">
-              RESULTS
+            <NavItem  className="nav-link mt-2"  >
+            <span style={{cursor: 'pointer'}} onClick={onResultsClick}>RESULTS</span>
             </NavItem>
-            <NavItem  className="nav-link mt-2">
-              TESTIMONIALS
+            <NavItem className="nav-link mt-2" onClick={navigateTestimonials}>
+              <span style={{ cursor: 'pointer' }}>TESTIMONIALS</span>
             </NavItem>
               <NavItem>
                 <Button
