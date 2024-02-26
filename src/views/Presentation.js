@@ -14,9 +14,9 @@
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 */
-import React , { useState, useEffect ,useRef,Link}from "react";
+import React , { useState, useEffect ,useRef}from "react";
 
-
+import { Link, useNavigate } from "react-router-dom";
 import ColorNavbar from "components/Navbars/ColorNavbar.js";
 
 import Testimonials from "./SectionsSections/Testimonials.js";
