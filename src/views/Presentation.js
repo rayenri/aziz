@@ -117,7 +117,7 @@ console.log('isOpen',isOpen)
         <Navbar className={"d-block fixed-top " + navbarColor} expand="lg" >
         <Container>
           <div className="navbar-translate">
-            <NavbarBrand to="/index" tag={Link} id="tooltip6619950104">
+            <NavbarBrand  id="tooltip6619950104">
               
               <span> SAIGHI AZIZ •</span> PERSONAL TRAINING
             </NavbarBrand>
@@ -213,7 +213,7 @@ allowfullscreen>
         </div>
       
 
-        <div className="d-flex justify-content-center align-items-center w-100">
+        <div className="d-flex justify-content-center align-items-center w-100" style={{marginTop:"3%"}}>
         <button
                     block
                     className="btn-round w-50 background-color-btn mt-3"
