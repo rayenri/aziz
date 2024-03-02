@@ -175,8 +175,8 @@ console.log('isOpen',isOpen)
       
       <div className="space-110" />
      
-      <div  style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
-<h2 className="title" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>      Let me teach you the secrets of training and nutrition, to lose fat, build muscle, heal injuries and get into the best shape of your life
+      <div className="p-3"  style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}>
+<h2 className="title p-4 mb-5 bg-body rounded" style={{ textAlign: 'center', maxWidth: '800px', margin: '0 auto',boxShadow: "10px 10px 10px 10px rgba(0, 0, 0, 0.6)" }}>      Let me teach you the secrets of training and nutrition, to lose fat, build muscle, heal injuries and get into the best shape of your life
 </h2>
 </div>
       <div className="d-flex justify-content-center w-100 " style={{height:"300px",marginTop:"3%"}}>
