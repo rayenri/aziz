@@ -248,7 +248,7 @@ export default function Headers() {
           <img src={require("assets/img/BA/7AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />
         </div>
         <div className="col-md-3 col-sm-6 p-3">
-          <img src={require("assets/img/BA/8AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}}  alt="..." className="img-fluid" />
+          <img src={require("assets/img/BA/10AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}}  alt="..." className="img-fluid" />
         </div>
         <div className="col-md-3 col-sm-6 p-3">
           <img src={require("assets/img/BA/9AZIZ.jpg")} style={{width: '100%', aspectRatio: '1 / 1'}} alt="..." className="img-fluid" />

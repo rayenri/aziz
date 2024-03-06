@@ -185,6 +185,31 @@ const Testimonials = React.forwardRef((props, ref) => {
          </div>
      </div>
  </div>
+
+ <div className="w-100  mt-3" style={{ padding: "20px", border: "2px solid rgba(27,127,204,.8)" }}>
+     <div className="row">
+         <div className="col-12 col-md-1 text-center mb-2 mb-md-0">
+             <div className="d-flex justify-content-center align-items-center">
+                 <h2 className="title ml-5">Youssef</h2>
+                 <img src={require("assets/img/BA/usa.png")} alt="Drapeau" style={{ width: '25px', height: '20px', marginLeft: '5px' }} />
+             </div>
+         </div>
+         <div className="col-12 col-md-5 text-center mb-2 mb-md-0">
+             <div className="d-flex justify-content-center align-items-center mt-5" style={{ minHeight: '100px' }}> {/* Adjust minHeight as needed */}
+             <h1 className="text-white font-weight-bold" style={{marginTop:"10%"}}>في شهرين نقصت بين 7 و 8 كيلو، و زدت في الكتلة العضلية بالرغم نخدم برشا و منجمش نمشي كل يوم ل gym</h1>            </div>
+         </div>
+         <div className="col-12 col-md-6">
+             <div className="embed-responsive embed-responsive-16by9">
+                 <iframe className="embed-responsive-item"
+                     src="https://www.youtube.com/embed/gY6bdoo9oPY"
+                     frameborder="0"
+                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                     allowfullscreen>
+                 </iframe>
+             </div>
+         </div>
+     </div>
+ </div>
                </Row>
  
               
