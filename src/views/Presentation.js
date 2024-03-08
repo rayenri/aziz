@@ -45,7 +45,7 @@ import {
 } from "reactstrap";
 import "./vimeo.css"
 export default function Presentation() {
-  
+  const navigate=useNavigate
   const wrapper = React.useRef(null);
   React.useEffect(() => {
     document.documentElement.scrollTop = 0;
@@ -192,7 +192,7 @@ console.log('isOpen',isOpen)
   { isMobile>570 ?    <iframe
                    style={{width:"550px",borderRadius:"5px",height:"100%"}}
     // style="width:100%; height:100%; border-radius:5px;"
-    src="https://www.youtube.com/embed/jN2y-7ne9CA"
+    src="https://www.youtube.com/embed/kr32wBG5s2A"
     frameborder="0"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen>
@@ -225,7 +225,7 @@ allowfullscreen>
                     height:"35px"
                    }}
               
-                  //  onClick={()=>setIsOpen(true)}
+                    onClick={()=>window.open("https://calendly.com/azizsaighi0/onboarding", "_blank")}
                     
                   >
                    BOOK A CALL
